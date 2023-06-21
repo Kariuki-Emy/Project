@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "534189459333",
+    "project_id": "agriplus-63299",
+    "storage_bucket": "agriplus-63299.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534189459333:android:f5cafeb604f858fbc2a6ec",
+        "android_client_info": {
+          "package_name": "com.example.agriplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534189459333-4ck1bvi8ms8kgrhk68en4tp6hek64hos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7SOOheiY95_k3UHK3Fow4hyFmZLN14Ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534189459333-4ck1bvi8ms8kgrhk68en4tp6hek64hos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
