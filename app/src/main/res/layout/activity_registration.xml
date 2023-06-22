@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#8BC34A"
+    android:background="#FEFAE0"
     tools:context=".Registration">
 
     <TextView
@@ -17,8 +17,9 @@
         android:layout_marginRight="90sp"
         android:layout_marginBottom="50sp"
         android:text="SIGN UP"
+        android:fontFamily="serif"
         android:layout_gravity="center"
-        android:textColor="#FFEB3B"
+        android:textColor="#3D9776"
         android:textSize="30sp" />
 
     <EditText
@@ -28,12 +29,14 @@
         android:layout_marginLeft="20sp"
         android:layout_marginTop="30sp"
         android:layout_marginRight="20sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/black"
         android:ems="10"
         android:hint="Enter Email Address"
         android:inputType="textEmailAddress"
         android:minHeight="50sp"
-        android:background="#FFEB3B"
-        android:textColorHint="#4CB350"
+        android:background="#D1CEA9"
+        android:textColorHint="#3D9776"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="60dp" />
@@ -42,14 +45,16 @@
         android:id="@+id/EdtRegPass"
         android:textSize="20sp"
         android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:fontFamily="serif-monospace"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20sp"
         android:layout_marginTop="30sp"
         android:layout_marginRight="20sp"
         android:ems="10"
         android:hint="Enter Password"
-        android:background="#FFEB3B"
-        android:textColorHint="#4CB350"
+        android:background="#D1CEA9"
+        android:textColorHint="#3D9776"
         android:inputType="textPassword"
         android:minHeight="50sp" />
 
@@ -58,13 +63,15 @@
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/black"
         android:layout_marginLeft="20sp"
         android:layout_marginTop="30sp"
         android:layout_marginRight="20sp"
         android:ems="10"
         android:hint="Confirm Password"
-        android:background="#FFEB3B"
-        android:textColorHint="#4CB350"
+        android:background="#D1CEA9"
+        android:textColorHint="#3D9776"
         android:inputType="textPassword"
         android:minHeight="50sp" />
 
@@ -72,12 +79,12 @@
         android:id="@+id/btn_reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFEB3B"
+        android:backgroundTint="#5D7B6F"
         android:layout_marginRight="90sp"
         android:layout_marginLeft="90sp"
         android:layout_marginTop="50sp"
         android:textSize="20sp"
-        android:textColor="#4CB350"
+        android:textColor="#F9EBC7"
         android:text="Sign Up" />
 
     <TextView
@@ -90,7 +97,7 @@
         android:layout_marginRight="30sp"
         android:gravity="fill_horizontal"
         android:text="Already have an account. Go to Log In"
-        android:textColor="@color/white"
+        android:textColor="#5D7B6F"
         android:textSize="15sp" />
 
 
