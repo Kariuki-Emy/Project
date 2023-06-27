@@ -8,6 +8,14 @@
     android:background="#FEFAE0"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo2"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp">
+    </ImageView>
+
     <TextView
         android:id="@+id/Tv_logintop"
         android:layout_width="wrap_content"
@@ -15,8 +23,9 @@
         android:layout_marginLeft="90sp"
         android:layout_marginTop="50sp"
         android:layout_marginRight="90sp"
-        android:layout_marginBottom="50sp"
+        android:layout_marginBottom="30sp"
         android:text="LOG IN"
+        android:textStyle="bold"
         android:fontFamily="serif"
         android:layout_gravity="center"
         android:textColor="#5F6F52"

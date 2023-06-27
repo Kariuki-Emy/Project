@@ -8,6 +8,14 @@
     android:background="#FEFAE0"
     tools:context=".Registration">
 
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo2"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp">
+    </ImageView>
+
     <TextView
         android:id="@+id/Tv_signup"
         android:layout_width="wrap_content"
@@ -15,8 +23,9 @@
         android:layout_marginLeft="90sp"
         android:layout_marginTop="50sp"
         android:layout_marginRight="90sp"
-        android:layout_marginBottom="50sp"
+        android:layout_marginBottom="30sp"
         android:text="SIGN UP"
+        android:textStyle="bold"
         android:fontFamily="serif"
         android:layout_gravity="center"
         android:textColor="#3D9776"
@@ -35,7 +44,7 @@
         android:hint="Enter Email Address"
         android:inputType="textEmailAddress"
         android:minHeight="50sp"
-        android:background="#D1CEA9"
+        android:background="#F9EBC7"
         android:textColorHint="#3D9776"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="69dp"
@@ -53,7 +62,7 @@
         android:layout_marginRight="20sp"
         android:ems="10"
         android:hint="Enter Password"
-        android:background="#D1CEA9"
+        android:background="#F9EBC7"
         android:textColorHint="#3D9776"
         android:inputType="textPassword"
         android:minHeight="50sp" />
@@ -70,7 +79,7 @@
         android:layout_marginRight="20sp"
         android:ems="10"
         android:hint="Confirm Password"
-        android:background="#D1CEA9"
+        android:background="#F9EBC7"
         android:textColorHint="#3D9776"
         android:inputType="textPassword"
         android:minHeight="50sp" />
